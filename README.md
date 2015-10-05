@@ -4,8 +4,7 @@ Date of current version: **October 5, 2015**
 
 # Description
 
-This application is a project to practice developing an app using Ember. It attempts to clone Craigslist.
-
+This application is a clone of Portland's Craigslist. It is a project to practice developing an Ember app.
 
 ## Prerequisites
 
