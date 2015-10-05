@@ -1,21 +1,25 @@
-# Craigslist
+#### Craigslist clone
+By **Diana Holland**
+Date of current version: **October 5, 2015**
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# Description
+
+This application is a project to practice developing an app using Ember. It attempts to clone Craigslist.
+
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+To collaborate on this project, you will need the following things properly installed on your computer:
 
 * [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+* [Node.js](http://nodejs.org/) (with NPM) - an open-source, cross-platform runtime environment for developing server-side web applications
+* [Bower](http://bower.io/) - a package manager for JS libraries
+* [Ember CLI](http://www.ember-cli.com/) - the Ember.js command line utility (uses Broccoli, an asset-pipeline for builds)
+* [PhantomJS](http://phantomjs.org/) - a scripted, headless browser used for automating webpage interaction
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/theholla/craigslist.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -50,4 +54,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
