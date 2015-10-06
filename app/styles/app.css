@@ -1,3 +1,6 @@
+.test {
+  background-color: teal;}
+
 .homepage {
   background: white;
   color: #222;
@@ -15,8 +18,7 @@ html, body {
 
 em {
   font-weight: bold;
-  font-style: normal;
-}
+  font-style: normal;}
 
 #pagecontainer {
   width: 870px;
@@ -179,6 +181,29 @@ em {
     padding: 0.25em;
     text-decoration: none;  }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding-right: 4em;
+  background: #eee;
+  padding: 5px;
+  line-height: 1.5em;
+  min-height: 1.1em;}
+
+  ul.slfooter {
+    list-style: none;}
+
+  .slfooter li {
+    display: inline;
+    padding: 0 4px;
+    font-size: small;}
+
+
+
 .posting {
   padding: 10px 15px;
   width: 754px;
@@ -196,8 +221,26 @@ em {
   .label {
     cursor: pointer;
     position: relative;
-    display: inline-block;
-  }
+    display: inline-block;  }
+
+  .postingtitle {
+    font-family: "Bitstream Vera Serif","Times New Roman",serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin: 10px 0;
+    clear: left;  }
+
+  .userbody {
+    padding-bottom: .5em;
+    margin-bottom: 1.5em;  }
+
+  section.body {
+    padding: .5em 8px 2em;
+    width: 768px;
+    margin: 0 auto;
+    height: 90%;
+    min-height: 600px;  }
 
 #notice {
   padding: .5em 8px 2em;
