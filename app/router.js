@@ -7,7 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('category');
-  this.route('listing');
+  this.route('listing', {path: '/listing/:listing_id'});
   this.route('new-listing', {});
   this.route('new-listing-notice', {});
 });
