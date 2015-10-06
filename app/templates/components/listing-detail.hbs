@@ -1,5 +1,8 @@
-{{listing.category}}
-{{listing.title}}
-{{listing.body}}
+<header class="dateReplyBar">
+  Posted: {{format-date listing.date}}
+</header>
 
-posted on {{format-date listing.date}}
+<h2 class="postingtitle">{{listing.title}}</h2> <span>({{listing.location}})</span>
+
+<section class="userbody">{{listing.body}}</section>
+<div>post id: {{listing.id}} posted: {{format-date listing.date}}</div>
