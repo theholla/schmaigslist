@@ -13,6 +13,11 @@ html, body {
   position: relative;
   display: block;}
 
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
 #pagecontainer {
   width: 870px;
   position: relative;
@@ -37,32 +42,32 @@ html, body {
   text-align: center;
   width: 62%;}
 
-#topbar h2 {
-  display: inline-block;
-  font-family: 'Times New Roman',Times,serif;
-  font-size: 1.5em;
-  line-height: 1.7em;
-  margin-top: 0;}
+  #topbar h2 {
+    display: inline-block;
+    font-family: 'Times New Roman',Times,serif;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    margin-top: 0;}
 
-#topbar .wikilink a {
-  font-family: 'Arial',sans-serif;
-  font-size: 10px;
-  line-height: 1;
-  margin-left: 5px;
-  vertical-align: super;
-  color: black;}
+  #topbar .wikilink a {
+    font-family: 'Arial',sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    margin-left: 5px;
+    vertical-align: super;
+    color: black;}
 
-#topbar .sublinks {
-  display: inline-block;
-  font-size: 12px;
-  line-height: 1.1em;
-  margin: 3px 0 0 7px;
-  list-style: none;}
+  #topbar .sublinks {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.1em;
+    margin: 3px 0 0 7px;
+    list-style: none;}
 
-.sublinks li {
-  background-color: white;
-  display: inline;
-  padding: 7px;}
+  .sublinks li {
+    background-color: white;
+    display: inline;
+    padding: 7px;}
 
 #leftbar {
   background: #f2f2f2;
@@ -76,25 +81,25 @@ html, body {
   text-align: center;
   width: 20%;}
 
-#leftbar li, #leftbar a {
-  padding: 2px 0;
-  list-style: none;
-  font-size: 105%;}
+  #leftbar li, #leftbar a {
+    padding: 2px 0;
+    list-style: none;
+    font-size: 105%;}
 
-#leftbar #logo {
-  font-size: 235%;
-  line-height: 135%;
-  font-weight: 500;
-  font-family: 'Times New Roman',Times,serif;
-  width: 100%;}
+  #leftbar #logo {
+    font-size: 235%;
+    line-height: 135%;
+    font-weight: 500;
+    font-family: 'Times New Roman',Times,serif;
+    width: 100%;}
 
-#leftbar #postlinks {
-  font-size: 100%;
-  text-align: center;}
+  #leftbar #postlinks {
+    font-size: 100%;
+    text-align: center;}
 
-#li #post {
-  padding: 2px .5em;
-  background-color: #ffcffc;}
+  #li #post {
+    padding: 2px .5em;
+    background-color: #ffcffc;}
 
 #center {
   float: left;
@@ -105,39 +110,39 @@ html, body {
   font-size: 100%;
   vertical-align: baseline;}
 
-.community {
-  float: left;
-  width: 33%;}
+  .community {
+    float: left;
+    width: 33%;}
 
-.housing {
-  float: left;
-  padding: 0 4%;
-  width: 37%;}
+  .housing {
+    float: left;
+    padding: 0 4%;
+    width: 37%;}
 
-.jobs {
-  float: left;
-  padding: 0;
-  width: 22%;}
+  .jobs {
+    float: left;
+    padding: 0;
+    width: 22%;}
 
-.banner {
-  text-align: center;
-  font-weight: bold;
-  padding: 2px 5px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: #eee;}
+  .banner {
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee;}
 
-.categories {
-  font-size: 100%;}
+  .categories {
+    font-size: 100%;}
 
-.categorycol {
-  float: left;
-  font-size: smaller;
-  padding-bottom: 1em;
-  list-style: none;}
+  .categorycol {
+    float: left;
+    font-size: smaller;
+    padding-bottom: 1em;
+    list-style: none;}
 
-.categorycol li {
-    border-bottom: 1px solid #eaeaea;}
+  .categorycol li {
+      border-bottom: 1px solid #eaeaea;}
 
 #rightbar {
   background: #f4f4f4;
@@ -153,3 +158,55 @@ html, body {
   text-align: center;
   vertical-align: top;
   width: 11%;}
+
+#global-header {
+  border-bottom: 1px solid #ccc;
+  background: #eee;
+  height: 1.925em;
+  line-height: 1.925em;
+  min-height: 2.8em;
+  padding: .3125em 0;
+  width: 100%;
+  z-index: 1001;}
+
+  .header-logo {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    float: left;
+    line-height: 1;
+    margin: .2125em .4em;
+    padding: 0.25em;
+    text-decoration: none;  }
+
+.posting {
+  padding: 10px 15px;
+  width: 754px;
+  margin: 1em auto;
+  overflow: hidden;
+  border: 2px solid #ccc;}
+
+  .row {
+    margin-bottom: 1.5em;
+    zoom: 1;  }
+
+  .required {
+    color: #008000;  }
+
+  .label {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+  }
+
+#notice {
+  padding: .5em 8px 2em;
+  width: 768px;
+  margin: 0 auto;
+  height: 90%;
+  min-height: 600px;}
+
+  #notice div {
+    background: #eee;
+    padding: 12px;
+    margin-bottom: 2em;}
