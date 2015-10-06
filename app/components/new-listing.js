@@ -3,10 +3,6 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   newListing: false,
   actions: {
-    newListingFormShow() {
-      this.set('newListing', true);
-    },
-
     save() {
       var params = {
         type: this.get('type') ? this.get('type') : "",
@@ -20,7 +16,6 @@ export default Ember.Component.extend({
         body: this.get('body') ? this.get('body') : "",
         date: Date.now()
       };
-      this.set('newListing', false),
       this.sendAction('save', params);
     }
   }

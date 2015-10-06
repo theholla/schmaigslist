@@ -8,6 +8,8 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('category');
   this.route('listing');
+  this.route('new-listing', {});
+  this.route('new-listing-notice', {});
 });
 
 export default Router;
