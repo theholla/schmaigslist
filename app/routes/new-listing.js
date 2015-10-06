@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     save(params) {
       var newListing = this.store.createRecord('listing', params);
       newListing.save();
-      this.transitionTo('new-listing-notice');
+      this.transitionTo('new-listing-notice', newListing.id);
     }
   }
 });

@@ -26,8 +26,9 @@
       <h4 class="banner">{{#link-to 'category' category.id}}community{{/link-to}}</h4>
       <div class="categories">
         <ul class="categorycol">
-          <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
-          <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
+          {{#each category.listings as |listing|}}
+            {{listing-tile listing=listing}}
+          {{/each}}
         </ul>
         <ul class="categorycol">
           <li>{{#link-to 'index'}}more{{/link-to}}</li>
@@ -64,28 +65,6 @@
     more stuff
   </div>
 </section>
-
-
-
-
-<div class="test">
-
-  <ul>
-    {{#each category.listings as |listing|}}
-      {{listing-tile listing=listing}}
-    {{/each}}
-  </ul>
-
-{{listing-tile}}
-
-  <ul>
-    {{#each model as |category|}}
-      {{category-type category=category}}
-    {{/each}}
-  </ul>
-
-</div>
-
 
 <footer>
   <ul class="slfooter">
