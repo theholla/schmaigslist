@@ -18,6 +18,4 @@ export default DS.Model.extend({
 
     /* TODO: integrate specific post details depending on category? */
     /* TODO: integrate maps? */
-
-    spamOkay: DS.attr()
 });

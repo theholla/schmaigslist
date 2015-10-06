@@ -1,0 +1,37 @@
+{
+  "listings": [
+    {
+      "type": "housing",
+      "category": "housing",
+      "location": "Portland",
+      "contactPhone": "(503) 111-2222",
+      "contactName": "Sherrie Holmes",
+      "title": "housing wanted in inner NE",
+      "specificLocation": "NE 1st Ave and NE Schuyler St",
+      "zip": "97212",
+      "body": "Hey, I'm a cool girl and super fun. I have three cats. I'd love to share your house!"
+    },
+    {
+      "type": "for sale",
+      "category": "for sale",
+      "location": "Portland",
+      "contactPhone": "(503) 221-5555",
+      "contactName": "Lovedeep Malota",
+      "title": "Subaru outback for sale",
+      "specificLocation": "Hollywood",
+      "zip": "97232",
+      "body": "Come check out this Subaru. It's got low mileage and is painted in zebra stripes. $700 or best offer."
+    },
+    {
+      "type": "jobs",
+      "category": "jobs",
+      "location": "Portland",
+      "contactPhone": "(503) 555-1111",
+      "contactName": "Parastou Shogul",
+      "title": "RN position wanted",
+      "specificLocation": "OHSU",
+      "zip": "97211",
+      "body": "I've just graduated nursing school and am hoping to find work as an RN. Ideally in a local family practice. All offers considered. Will travel."
+    }
+  ]
+}

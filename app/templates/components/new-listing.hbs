@@ -1,0 +1,56 @@
+{{#if newListing}}
+  <div>
+    <form>
+
+      <div class="form-group">
+        <label for="type">type</label>
+        {{input value=type id="type"}}
+      </div>
+
+      <div class="form-group">
+        <label for="category">category</label>
+        {{input value=category id="category"}}
+      </div>
+
+      <div class="form-group">
+        <label for="location">location</label>
+        {{input value=location id="location"}}
+      </div>
+
+      <div class="form-group">
+        <label for="contactPhone">contactPhone</label>
+        {{input value=contactPhone id="contactPhone"}}
+      </div>
+
+      <div class="form-group">
+        <label for="contactName">contactName</label>
+        {{input value=contactName id="contactName"}}
+      </div>
+
+      <div class="form-group">
+        <label for="title">title</label>
+        {{input value=title id="title"}}
+      </div>
+
+      <div class="form-group">
+        <label for="specificLocation">specificLocation</label>
+        {{input value=specificLocation id="specificLocation"}}
+      </div>
+
+      <div class="form-group">
+        <label for="zip">zip</label>
+        {{input value=zip id="zip"}}
+      </div>
+
+      <div class="form-group">
+        <label for="body">body</label>
+        {{input value=body id="body"}}
+      </div>
+
+      <button {{action 'save'}}>publish</button>
+
+    </form>
+  </div>
+{{else}}
+  <button {{action 'newListingFormShow'}}> post to classifieds</button>
+{{/if}}
