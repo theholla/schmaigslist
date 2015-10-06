@@ -1,0 +1,154 @@
+.homepage {
+  background: white;
+  color: #222;
+  font-family: 'Arial', sans-serif;}
+
+.homepage ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 0 0 1px 0;}
+
+html, body {
+  height: 100%;
+  position: relative;
+  display: block;}
+
+#pagecontainer {
+  width: 870px;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  min-height: 600px;
+  padding: 16px 0 1em 0;
+  display: block;}
+
+#topbar {
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  clear: none;
+  display: block;
+  height: 2.5em;
+  float: right;
+  margin: 0 15.8% 0 0 ;
+  padding: 0;
+  font-weight: normal;
+  position: relative;
+  text-align: center;
+  width: 62%;}
+
+#topbar h2 {
+  display: inline-block;
+  font-family: 'Times New Roman',Times,serif;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  margin-top: 0;}
+
+#topbar .wikilink {
+  font-family: 'Arial',sans-serif;
+  font-size: 10px;
+  line-height: 1;
+  margin-left: 5px;
+  vertical-align: super;}
+
+#topbar .sublinks {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.1em;
+  margin: 3px 0 0 7px;
+  list-style: none;}
+
+.sublinks li {
+  background-color: white;
+  display: inline;
+  padding: 7px;}
+
+#leftbar {
+  background: #f2f2f2;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  float: left;
+  min-width: 10em;
+  font-size: smaller;
+  margin: 0;
+  min-height: 860px;
+  text-align: center;
+  width: 20%;}
+
+#leftbar li, #leftbar a {
+  padding: 2px 0;
+  list-style: none;
+  font-size: 105%;}
+
+#leftbar #logo {
+  font-size: 235%;
+  line-height: 135%;
+  font-weight: 500;
+  font-family: 'Times New Roman',Times,serif;
+  width: 100%;}
+
+#leftbar #postlinks {
+  font-size: 100%;
+  text-align: center;}
+
+#li #post {
+  padding: 2px .5em;
+  background-color: #ffcffc;}
+
+#center {
+  float: left;
+  margin: 2%;
+  padding: 0;
+  width: 62%;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;}
+
+.community {
+  float: left;
+  width: 33%;}
+
+.housing {
+  float: left;
+  padding: 0 4%;
+  width: 37%;}
+
+.jobs {
+  float: left;
+  padding: 0;
+  width: 22%;}
+
+.banner {
+  text-align: center;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #eee;}
+
+.categories {
+  font-size: 100%;}
+
+.categorycol {
+  float: left;
+  font-size: smaller;
+  padding-bottom: 1em;
+  list-style: none;}
+
+.categorycol li {
+    border-bottom: 1px solid #eaeaea;}
+
+#rightbar {
+  background: #f4f4f4;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  float: left;
+  min-width: 10em;
+  font-size: 70%;
+  line-height: 1.43em;
+  margin-top: -3.75em;
+  min-height: 850px;
+  padding: 5px 0;
+  text-align: center;
+  vertical-align: top;
+  width: 11%;}

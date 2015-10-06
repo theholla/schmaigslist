@@ -1,25 +1,70 @@
-<div class="row">
+<section id="pagecontainer">
+  <div id="topbar">
+    <h2>portland, OR<span class="wikilink">w</span></h2>
+    <ul class="sublinks">
+      <li><a href="/" title="multnomah co">mlt</a></li>
+      <li><a href="/" title="washington co">wsc</a></li>
+      <li><a href="/" title="clark/cowlitz">clk</a></li>
+      <li><a href="/" title="clackamas co">clc</a></li>
+      <li><a href="/" title="north coast">nco</a></li>
+      <li><a href="/" title="yamhill co">yam</a></li>
+      <li><a href="/" title="columbia gorge">grg</a></li></ul>
+  </div>
   <!-- Nav (my account, post, calendar, faq...) -->
-  <div class="col-md-3" id="leftbar">
 
-    <nav>
-      <ul>
-        <li>{{#link-to 'index'}} CL {{/link-to}}</li>
-        <li>{{#link-to 'index'}} stuff {{/link-to}}</li>
-        <li>{{#link-to 'index'}} stuff {{/link-to}}</li>
-      </ul>
-    </nav>
-
+  <div id="leftbar">
+    <div id="logo">{{#link-to 'index'}}schmaigslist{{/link-to}}</div>
+    <ul id="postlinks">
+      <li id="post">{{#link-to 'index'}} post to classifieds {{/link-to}}</li>
+      <li>{{#link-to 'index'}} my account {{/link-to}}</li>
+    </ul>
   </div>
 
   <!-- Portland, Oregon categories -->
-  <div class="col-md-7" id="center">
-    other stuff
+  <div id="center">
+    <div class="community">
+      <h4 class="banner">community</h4>
+      <div class="categories">
+        <ul class="categorycol">
+          <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
+          <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
+        </ul>
+        <ul class="categorycol">
+          <li>{{#link-to 'index'}}more{{/link-to}}</li>
+          <li>{{#link-to 'index'}}more{{/link-to}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="housing">
+      <h4 class="banner">housing</h4>
+      <div class="categories">
+        <div class="col">
+          <ul class="categorycol">
+            <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
+            <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="categorycol">
+            <li>{{#link-to 'index'}}more{{/link-to}}</li>
+            <li>{{#link-to 'index'}}more{{/link-to}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="jobs">
+      <h4 class="banner">jobs</h4>
+      <div class="categories">
+        <ul class="categorycol">
+          <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
+          <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <!-- All Oregon locations -->
-  <div class="col-md-2" id="rightbar">
+  <div id="rightbar">
     more stuff
   </div>
-
-</div>
+</section>
