@@ -18,7 +18,7 @@ To collaborate on this project, you will need the following things properly inst
 
 ## Installation
 
-* `git clone https://github.com/theholla/craigslist.git` this repository
+* `git clone https://github.com/theholla/schmaigslist.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
