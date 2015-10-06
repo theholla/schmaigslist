@@ -1,8 +1,27 @@
+<div id="global-header">
+  <span class="header-logo">{{#link-to 'index'}}SL{{/link-to}}</span>
+</div>
+
 <p>This is the page for {{model.category}}</p>
 
+{{new-listing category=model save="save"}}
 
 <ul>
   {{#each model.listing as |listing|}}
     {{listing-tile listing=listing}}
   {{/each}}
 </ul>
+
+<footer>
+  <ul class="slfooter">
+    <li>&#169; 2015 schmaigslist</li>
+    <li>{{#link-to 'index'}}doe{{/link-to}}</li>
+    <li>{{#link-to 'index'}}rae{{/link-to}}</li>
+    <li>{{#link-to 'index'}}mi{{/link-to}}</li>
+    <li>{{#link-to 'index'}}fa{{/link-to}}</li>
+    <li>{{#link-to 'index'}}so{{/link-to}}</li>
+    <li>{{#link-to 'index'}}la{{/link-to}}</li>
+    <li>{{#link-to 'index'}}ti{{/link-to}}</li>
+    <li>{{#link-to 'index'}}do{{/link-to}}</li>
+  </ul>
+</footer>
