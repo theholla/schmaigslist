@@ -17,7 +17,8 @@ export default Ember.Component.extend({
         title: this.get('title'),
         specificLocation: this.get('specificLocation'),
         zip: this.get('zip'),
-        body: this.get('body')
+        body: this.get('body'),
+        date: Date.now()
       };
       this.set('newListing', false),
       this.sendAction('save', params);

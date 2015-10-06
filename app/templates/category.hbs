@@ -1,1 +1,5 @@
-{{outlet}}
+<ul>
+  {{#each model.listing as |listing|}}
+    {{listing-tile listing=listing}}
+  {{/each}}
+</ul>
