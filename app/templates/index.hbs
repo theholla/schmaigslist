@@ -15,7 +15,7 @@
   <div id="leftbar">
     <div id="logo">{{#link-to 'index'}}schmaigslist{{/link-to}}</div>
     <ul id="postlinks">
-      <li id="post">{{new-listing save="save"}}</li>
+      <li id="post">{{#link-to 'new-listing'}}post to classifieds{{/link-to}}</li>
       <li>{{#link-to 'index'}} my account {{/link-to}}</li>
     </ul>
   </div>
@@ -23,7 +23,7 @@
   <!-- Portland, Oregon categories -->
   <div id="center">
     <div class="community">
-      <h4 class="banner">community</h4>
+      <h4 class="banner">{{#link-to 'category' category.id}}community{{/link-to}}</h4>
       <div class="categories">
         <ul class="categorycol">
           <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
@@ -38,18 +38,14 @@
     <div class="housing">
       <h4 class="banner">housing</h4>
       <div class="categories">
-        <div class="col">
           <ul class="categorycol">
             <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
             <li>{{#link-to 'index'}}stuff{{/link-to}}</li>
           </ul>
-        </div>
-        <div class="col">
           <ul class="categorycol">
             <li>{{#link-to 'index'}}more{{/link-to}}</li>
             <li>{{#link-to 'index'}}more{{/link-to}}</li>
           </ul>
-        </div>
       </div>
     </div>
     <div class="jobs">
