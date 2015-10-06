@@ -34,6 +34,22 @@
           <li>{{#link-to 'index'}}more{{/link-to}}</li>
         </ul>
       </div>
+
+      <!-- <ul>
+        {{#each category.listings as |listing|}}
+          {{listing-tile listing=listing}}
+        {{/each}}
+      </ul> -->
+
+<!-- {{listing-tile}} -->
+
+      <ul>
+        {{#each model as |category|}}
+          {{category-type category=category}}
+        {{/each}}
+      </ul>
+
+
     </div>
     <div class="housing">
       <h4 class="banner">housing</h4>
