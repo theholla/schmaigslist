@@ -1,10 +1,16 @@
-#### Craigslist clone
+#### Schmaigslist
 By **Diana Holland**
 Date of current version: **October 5, 2015**
 
 # Description
 
-This application is a clone of Portland's Craigslist. It is a project to practice developing an Ember app.
+Craigslist, schmaigslist. This is a project to explore using Ember to create a website. It attempts to clone Craigslist.
+
+# User Interface
+
+Posts fully functional. Still work to be done with categories.
+
+<img src="/public/schmaigslist.png">
 
 ## Prerequisites
 
